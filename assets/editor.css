@@ -1,0 +1,46 @@
+/* Tabaix Affiliate Cards — editor-only styles */
+.tac-editor {
+    border: 1px dashed #c9bfa5;
+    border-radius: 12px;
+    padding: 14px;
+    background: #fffdf7;
+}
+.tac-editor-head {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #0c6b4f;
+}
+.tac-editor-product {
+    border: 1px solid #e7dcc4;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+    background: #fff;
+}
+.tac-editor-product-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.tac-editor-thumb {
+    max-width: 120px;
+    height: auto;
+    border-radius: 8px;
+    margin: 6px 0;
+    display: block;
+}
+.tac-editor-note {
+    font-size: 12px;
+    color: #7a7365;
+    margin: 8px 0 0;
+}
+.tac-editor-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+}

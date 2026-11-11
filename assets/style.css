@@ -1,0 +1,164 @@
+/* Tabaix Affiliate Cards — frontend styles (site cream theme) */
+.tac-card {
+    position: relative;
+    background: #fffdf7;
+    border: 1px solid #e7dcc4;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 6px 24px rgba(60, 48, 20, 0.06);
+    margin: 24px 0;
+}
+.tac-single {
+    display: flex;
+    gap: 22px;
+    align-items: flex-start;
+}
+.tac-single .tac-img {
+    flex: 0 0 240px;
+}
+.tac-single .tac-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+.tac-body {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.tac-badge {
+    position: absolute;
+    top: -11px;
+    left: 18px;
+    background: #0c6b4f;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 4px 12px;
+    border-radius: 999px;
+}
+.tac-badge-inline {
+    position: static;
+    display: inline-block;
+    margin-top: 8px;
+}
+.tac-title {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #1f2a24;
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+.tac-title:hover {
+    color: #0c6b4f;
+}
+.tac-rating {
+    color: #0c6b4f;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.tac-features {
+    margin: 8px 0 12px;
+    padding-left: 20px;
+}
+.tac-features li {
+    margin: 4px 0;
+}
+.tac-price {
+    font-size: 22px;
+    font-weight: 800;
+    color: #1f2a24;
+    margin: 10px 0;
+}
+.tac-price .tac-on {
+    font-size: 13px;
+    font-weight: 600;
+    color: #7a7365;
+}
+.tac-btn {
+    display: inline-block;
+    background: #0c6b4f;
+    color: #fff !important;
+    font-weight: 700;
+    text-decoration: none !important;
+    padding: 12px 22px;
+    border-radius: 999px;
+    margin-top: 6px;
+}
+.tac-btn:hover {
+    background: #095a41;
+}
+.tac-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 18px;
+    margin: 24px 0;
+}
+.tac-mini {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.tac-mini .tac-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 12px;
+}
+.tac-mini .tac-title {
+    font-size: 16px;
+}
+.tac-mini .tac-price {
+    font-size: 18px;
+}
+.tac-table-wrap {
+    overflow-x: auto;
+    margin: 24px 0;
+}
+.tac-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fffdf7;
+    border: 1px solid #e7dcc4;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.tac-table th,
+.tac-table td {
+    border: 1px solid #efe6cf;
+    padding: 12px;
+    vertical-align: top;
+    text-align: left;
+}
+.tac-table thead th {
+    background: #faf6ed;
+    font-size: 15px;
+}
+.tac-table td img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+.tac-row-label {
+    font-weight: 700;
+    color: #7a7365;
+    white-space: nowrap;
+    background: #faf6ed;
+}
+.tac-table .tac-price {
+    font-size: 17px;
+}
+@media (max-width: 640px) {
+    .tac-single {
+        flex-direction: column;
+    }
+    .tac-single .tac-img {
+        flex: none;
+        width: 100%;
+    }
+}
